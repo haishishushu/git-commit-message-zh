@@ -24,6 +24,18 @@
 
 ## 安装
 
+### 推荐：使用 npx
+
+请先安装 [Node.js](https://nodejs.org/)，然后运行：
+
+```bash
+npx skills add haishishushu/git-commit-message-zh -a codex -g
+```
+
+该命令使用 [Vercel Labs Skills CLI](https://github.com/vercel-labs/skills)，并将本 Skill 全局安装到 Codex。
+
+### 手动安装
+
 下载或克隆本项目后，将整个 `git-commit-message-zh` 目录复制到：
 
 ```text
