@@ -1,4 +1,4 @@
 interface:
   display_name: "中文 Git 提交信息"
-  short_description: "根据本地上游与工作区差异生成具体中文提交信息并自动选择类型"
-  default_prompt: "使用 $git-commit-message-zh 根据当前 Git 改动生成一条中文提交信息。"
+  short_description: "根据实际代码或改动生成包含标题和分条描述的中文提交信息并自动选择类型"
+  default_prompt: "使用 $git-commit-message-zh 根据当前 Git 改动生成一条包含标题和描述正文的中文提交信息，标题与正文之间空一行。"
